@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+
+<html lang="en" manifest="citrino.manifest">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<title>Citrino</title>
+	<link rel="stylesheet" href="css/citrino.css" />
+</head>
+
+<body>
+	<section class="page" id="welcome" style="background-image: url(img/welcome_1.png); background-size: contain;">
+		<div style="position: absolute; top: 178px; left: 806px" onclick="show('portal');">
+			<div class="btn_welcome">
+			</div>
+		</div>
+
+		<div style="position: absolute; top: 246px; left: 686px" onclick="show('portal');">
+			<div class="btn_welcome">
+			</div>
+		</div>
+
+		<div style="position: absolute; top: 314px; left: 570px" onclick="show('portal');">
+			<div class="btn_welcome">
+			</div>
+		</div>
+
+		<div style="position: absolute; top: 450px; left: 686px" onclick="show('portal');">
+			<div class="btn_welcome">
+			</div>
+		</div>
+	</section>
+	<section class="page" id="portal" style="background-image: url(img/portal.png); background-size: contain;">
+		<div style="position: absolute; top: 597px; left: 479px" onclick="show('home');">
+			<div class="btn_portal">
+			</div>
+		</div>
+	</section>
+	<section class="page" id="home" style="background-image: url(img/home.png); background-size: cover;">
+		<div class="btn_back_wrapper" onclick="show('welcome');">
+			<div class="btn_back">
+			</div>
+		</div>
+		<div style="position: absolute; top: 266px; left: 81px" onclick="show('point_of_care');">
+			<div class="btn_home">
+			</div>
+		</div>
+
+		<div style="position: absolute; top: 403px; left: 298px" onclick="show('puericultura');">
+			<div class="btn_home">
+			</div>
+		</div>
+
+		<div style="position: absolute; top: 403px; left: 538px" onclick="show('incontinencia');">
+			<div class="btn_home">
+			</div>
+		</div>
+
+		<div style="position: absolute; top: 266px; left: 755px" onclick="show('ortopedia');">
+			<div class="btn_home">
+			</div>
+		</div>
+	</section>
+	<section class="page" id="point_of_care" style="background-image: url(img/pc.png); background-size: cover;">
+		<div class="btn_back_wrapper" onclick="show('home');">
+			<div class="btn_back">
+			</div>
+		</div>
+
+		<div style="position: absolute; top: 265px; left: 80px" onclick="show('cr3000');">
+			<div class="btn_home">
+			</div>
+		</div>
+
+		<div style="position: absolute; top: 265px; left: 298px" onclick="show('veri_q');">
+			<div class="btn_home">
+			</div>
+		</div>
+
+		<div style="position: absolute; top: 265px; left: 538px" onclick="show('urit_30');">
+			<div class="btn_home">
+			</div>
+		</div>
+
+		<div style="position: absolute; top: 265px; left: 754px" onclick="show('soft_plus');">
+			<div class="btn_home">
+			</div>
+		</div>
+
+		<div style="position: absolute; top: 444px; left: 417px" onclick="show('pletix');">
+			<div class="btn_home">
+			</div>
+		</div>
+		
+	</section>
+	<section class="page" id="puericultura" style="background-image: url(img/pu.png); background-size: cover;">
+		<div class="btn_back_wrapper" onclick="show('home');">
+			<div class="btn_back">
+			</div>
+		</div>
+
+		<div style="position: absolute; top: 266px; left: 298px" onclick="show('bambo_fralda');">
+			<div class="btn_home">
+			</div>
+		</div>
+
+		<div style="position: absolute; top: 266px; left: 537px" onclick="show('bambo_toalhitas');">
+			<div class="btn_home">
+			</div>
+		</div>
+	</section>
+	<section class="page" id="incontinencia" style="background-image: url(img/ic.png); background-size: cover;">
+		<div class="btn_back_wrapper" onclick="show('home');">
+			<div class="btn_back">
+			</div>
+		</div>
+
+		<div style="position: absolute; top: 266px; left: 298px" onclick="show('abri_premium');">
+			<div class="btn_home">
+			</div>
+		</div>
+
+		<div style="position: absolute; top: 266px; left: 537px" onclick="show('abri_light');">
+			<div class="btn_home">
+			</div>
+		</div>
+
+		<div style="position: absolute; top: 444px; left: 417px" onclick="show('abri_man');">
+			<div class="btn_home">
+			</div>
+		</div>
+	</section>
+	<section class="page" id="ortopedia" style="background-image: url(img/or.png); background-size: cover;">
+		<div class="btn_back_wrapper" onclick="show('home');">
+			<div class="btn_back">
+			</div>
+		</div>
+
+		<div style="position: absolute; top: 315px; left: 417px" onclick="show('suportes_ortopedicos');">
+			<div class="btn_home">
+			</div>
+		</div>
+	</section>
+	<section class="page" id="cr3000" style="background-image: url(img/pc_cr.png); background-size: cover;">
+		<div class="btn_back_wrapper" onclick="show('point_of_care');">
+			<div class="btn_back">
+			</div>
+		</div>
+	</section>
+	<section class="page" id="veri_q" style="background-image: url(img/pc_vq.png); background-size: cover;">
+		<div class="btn_back_wrapper" onclick="show('point_of_care');">
+			<div class="btn_back">
+			</div>
+		</div>
+	</section>
+	<section class="page" id="urit_30" style="background-image: url(img/pc_ur.png); background-size: cover;">
+		<div class="btn_back_wrapper" onclick="show('point_of_care');">
+			<div class="btn_back">
+			</div>
+		</div>
+	</section>
+	<section class="page" id="soft_plus" style="background-image: url(img/pc_sp.png); background-size: cover;">
+		<div class="btn_back_wrapper" onclick="show('point_of_care');">
+			<div class="btn_back">
+			</div>
+		</div>
+	</section>
+	<section class="page" id="pletix" style="background-image: url(img/pc_pl.png); background-size: cover;">
+		<div class="btn_back_wrapper" onclick="show('point_of_care');">
+			<div class="btn_back">
+			</div>
+		</div>
+	</section>
+	<section class="page" id="bambo_fralda" style="background-image: url(img/pu_f.png); background-size: cover;">
+		<div class="btn_back_wrapper" onclick="show('puericultura');">
+			<div class="btn_back">
+			</div>
+		</div>
+	</section>
+	<section class="page" id="bambo_toalhitas" style="background-image: url(img/pu_t.png); background-size: cover;">
+		<div class="btn_back_wrapper" onclick="show('puericultura');">
+			<div class="btn_back">
+			</div>
+		</div>
+	</section>
+	<section class="page" id="abri_premium" style="background-image: url(img/ic_ap.png); background-size: cover;">
+		<div class="btn_back_wrapper" onclick="show('incontinencia');">
+			<div class="btn_back">
+			</div>
+		</div>
+	</section>
+	<section class="page" id="abri_light" style="background-image: url(img/ic_al.png); background-size: cover;">
+		<div class="btn_back_wrapper" onclick="show('incontinencia');">
+			<div class="btn_back">
+			</div>
+		</div>
+	</section>
+	<section class="page" id="abri_man" style="background-image: url(img/ic_am.png); background-size: cover;">
+		<div class="btn_back_wrapper" onclick="show('incontinencia');">
+			<div class="btn_back">
+			</div>
+		</div>
+	</section>
+	<section class="page" id="suportes_ortopedicos" style="background-image: url(img/or_so.png); background-size: cover;">
+		<div class="btn_back_wrapper" onclick="show('ortopedia');">
+			<div class="btn_back">
+			</div>
+		</div>
+	</section>
+
+	<audio id="beep" preload="auto">
+		<source src="audio/beep.mp3"></source>
+		<source src="audio/beep.ogg"></source>
+	</audio>	
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/citrino.js"></script>
+</body>
+
+</html>
