@@ -1,10 +1,10 @@
 CACHE MANIFEST
  
-# Version: 2.00
+# Version: 1.00
 
 CACHE:
-welcome.html
-js/citrino.js
+index.html
+js/script.js
 js/jquery-1.11.3.min.js
 img/home.png
 img/ic.png
@@ -26,6 +26,6 @@ img/welcome_1.png
 img/welcome_2.png
 img/welcome_3.png
 img/portal.png
-css/citrino.css
+css/style.css
 audio/beep.ogg
 audio/beep.mp3
