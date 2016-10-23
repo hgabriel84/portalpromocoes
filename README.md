@@ -1,1 +1,1 @@
-# html game for quilaban
+# webapp for a quilaban event
